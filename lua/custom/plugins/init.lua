@@ -3,7 +3,7 @@
 --
 -- See the kickstart.nvim README for more information
 return {
-  'glepnir/dashboard-nvim',
+  {'glepnir/dashboard-nvim',
   event = 'VimEnter',
   config = function()
     require('dashboard').setup {
@@ -11,5 +11,7 @@ return {
     }
   end,
   dependencies = { {'nvim-tree/nvim-web-devicons'}}
+  },
+  {'karb94/neoscroll.nvim'}
 }
 
