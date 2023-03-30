@@ -2,7 +2,7 @@
 --  I promise not to create any merge conflicts in this directory :)
 --
 -- See the kickstart.nvim README for more information
-{
+return {
   'glepnir/dashboard-nvim',
   event = 'VimEnter',
   config = function()
@@ -12,4 +12,4 @@
   end,
   dependencies = { {'nvim-tree/nvim-web-devicons'}}
 }
-return {}
+
